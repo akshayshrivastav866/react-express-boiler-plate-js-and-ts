@@ -5,7 +5,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx.git"
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts.git"
   },
   "keywords": [
     "react",
@@ -13,7 +13,9 @@
     "plate",
     "akshayshrivastav866",
     "akshay",
-    "shrivastav"
+    "shrivastav",
+    "javascript",
+    "js"
   ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

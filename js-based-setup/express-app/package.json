@@ -5,7 +5,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx.git"
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts.git"
   },
   "keywords": [
     "express",
@@ -13,14 +13,16 @@
     "plate",
     "akshayshrivastav866",
     "akshay",
-    "shrivastav"
+    "shrivastav",
+    "javascript",
+    "js"
   ],
   "author": "Akshay Shrivastav",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx/issues"
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts/issues"
   },
-  "homepage": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx#readme",
+  "homepage": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts#readme",
   "main": "index.js",
   "dependencies": {
     "express": "^4.19.2"
