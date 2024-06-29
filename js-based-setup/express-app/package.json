@@ -25,6 +25,7 @@
   "homepage": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts#readme",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
   "scripts": {
