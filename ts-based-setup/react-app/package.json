@@ -40,7 +40,6 @@
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
-    "husky": "^4.3.0",
     "lint-staged": "^10.4.2"
   },
   "eslintConfig": {
@@ -60,11 +59,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run format"
-    }
   },
   "lint-staged": {
     "*.+(js|jsx)": [
