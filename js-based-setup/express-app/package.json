@@ -1,0 +1,31 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx.git"
+  },
+  "keywords": [
+    "express",
+    "boiler",
+    "plate",
+    "akshayshrivastav866",
+    "akshay",
+    "shrivastav"
+  ],
+  "author": "Akshay Shrivastav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx/issues"
+  },
+  "homepage": "https://github.com/akshayshrivastav866/react-express-boiler-plate-jsx#readme",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
