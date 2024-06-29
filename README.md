@@ -23,13 +23,22 @@
 
 1. Clone this repo in your local
 2. cd to `js-based-setup` or `ts-based-setup` (Whichever suits best for you)
-3. Run below system specific commands, this will automatically install defined packages in `package.json` present inside each folder
+3. After completing step 2, below are system specific commands (This will automatically install defined packages in `package.json` present inside each folder )
    1. `sh ./install.sh` on Linux/Mac OS
    2. `./install.bat` on Windows OS
-4. Switch to your desired folder (i.e `express-app` or `react-app`) and happy coding!!
-   1. For express app
-      1. cd `express-app`
-      2. node `index.js`
-   2. For react app
-      1. cd `react-app`
-      2. npm start
+
+# How to Run?
+
+### If you are in `js-based-setup`
+
+1. Switch to your desired folder (i.e `express-app` or `react-app`)
+   1. For express app -> `node index.js`
+   2. For react app -> `npm start`
+
+### If you are in `js-based-setup`
+
+1. Switch to your desired folder (i.e `express-app` or `react-app`)
+   1. For express app -> `npm run dev`
+   2. For react app -> `npm start`
+
+## Happy Coding!!
