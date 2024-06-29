@@ -2,16 +2,91 @@
   "name": "express-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts.git"
   },
-  "author": "",
+  "keywords": [
+    "express",
+    "boiler",
+    "plate",
+    "akshayshrivastav866",
+    "akshay",
+    "shrivastav",
+    "typescript",
+    "ts"
+  ],
+  "author": "Akshay Shrivastav",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts/issues"
+  },
+  "homepage": "https://github.com/akshayshrivastav866/react-express-boiler-plate-js-and-ts#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.9",
-    "express": "^4.19.2",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "babel-plugin-import": "^1.13.8",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.5.0",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "nodemon": "^3.1.4",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format"
+    }
+  },
+  "lint-staged": {
+    "*.+(js|jsx)": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.+(json|css|md)": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" ./src/index.ts",
+    "lint": "eslint src/**/*.ts --fix",
+    "format": "prettier src/**/*.ts --write"
   }
 }

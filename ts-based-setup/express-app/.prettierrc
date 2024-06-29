@@ -1,0 +1,49 @@
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "useTabs": false,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "rangeStart": 0,
+  "overrides": [
+    {
+      "files": "*.{ts,tsx}",
+      "options": {
+        "singleQuote": true,
+        "tabWidth": 2,
+        "bracketSpacing": true,
+        "useTabs": true,
+        "semi": true,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "quoteProps": "consistent",
+        "singleQuote": false,
+        "trailingComma": "all",
+        "bracketSpacing": true
+      }
+    },
+    {
+      "files": "*.{yaml,yml}",
+      "options": {
+        "singleQuote": false,
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}
